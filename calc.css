@@ -1,0 +1,101 @@
+body {
+width: 875px;
+margin: 4% auto;
+font-family: Quicksand;
+letter-spacing: 5px;
+font-size: 1.5rem;
+background: #EAE6E5
+}
+
+::selection {
+    color: none;
+    background: none;
+}
+.debug{
+  color: white;
+  background:#4C2A85;
+}
+
+.debug:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.debug:active{
+  background: white;
+  color: black;
+}
+
+.calculator {
+padding: 20px;
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+border-radius: 1px;
+background: #12130F;
+}
+
+.input {
+border: 1px solid #ddd;
+border-radius: 1px;
+height: 60px;
+padding-right: 15px;
+padding-top: 10px;
+text-align: right;
+margin-right: 6px;
+font-size: 2.5rem;
+overflow-x: auto;
+color: white;
+}
+
+.buttons {}
+
+.operators {}
+
+.operators div {
+display: inline-block;
+border: 1px solid #D1CCDC;
+border-radius: 1px;
+width: 80px;
+text-align: center;
+padding: 10px;
+margin: 3px;
+margin-top: 40px;
+cursor: pointer;
+color: white;
+background-color: #4C2A85;
+min-height: 1em
+}
+
+
+.leftPanel {
+display: inline-block;
+}
+
+.numbers div {
+display: inline-block;
+border: 1px solid #ddd;
+border-radius: 1px;
+width: 80px;
+text-align: center;
+padding: 10px;
+margin: 3px;
+color: white;
+margin-top: 5px;
+cursor: pointer;
+background-color: #424C55;
+}
+
+div.numbers div:active , div.operators div:active{
+  background: white;
+  color: black;
+}
+
+.equal {
+  float: right;
+display: inline-block;
+width: 10%;
+height: 150px;
+text-align: center;
+vertical-align: top;
+cursor: pointer;
+color: #FFF;
+background-color: #4C2A85;
+}
